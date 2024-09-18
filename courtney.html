@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Horizontal Text Flip using CSS
+    </title>
+    <style>
+        span {
+            padding: 30px;
+            font-size: 18px;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            height: 50vh;
+            align-items: center;
+        }
+        .flipHorizontal {
+            display: inline-block;
+            transform: scaleX(-1);
+            color: #04af2f;
+        }
+    </style>
+</head>
+<body>
+    <h3>
+        Flipping the text using CSS
+    </h3>
+    <p>
+        In this example we have used <strong>scaleX
+        </strong> function to flip the text horizontally 
+        using CSS.
+    </p>
+    <div>
+        <strong>
+            <span>
+                Tutorialspoint
+            </span>
+        </strong>
+        <strong>
+            <span class="flipHorizontal">
+                Tutorialspoint
+            </span>
+        </strong>
+    </div>
+</body>
+</html>
