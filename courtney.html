@@ -39,39 +39,31 @@ be happy
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Courtney</title>
-    <style>
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+   <title>
+        Mirroring the Text using CSS
+    </title>
+   <style>
+        .mirror {
+           display: inline-block;
+           transform: rotateX(180deg);
+           color: #04af2f;
         }
- 
-        .backwards {
-            display: inline;
-            font-size: 100px;
-            font-style: bold;
-            -moz-transform: scale(-1, -1);
-            -webkit-transform: scale(-1, -1);
-            -o-transform: scale(-1, -1);
-            -ms-transform: scale(-1, -1);
-            transform: scale(-1, -1);
-        }
-    </style>
+   </style>
 </head>
- 
 <body>
-    <ul>
-        <li class="backwards">y</li>
-        <li class="backwards">e</li>
-        <li class="backwards">n</li>
-        <li class="backwards">t</li>
-        <li class="backwards">r</li>
-        <li class="backwards">u</li>
-        <li class="backwards">o</li>
-        <li class="backwards">c</li>
-    </ul>
-
+    <h3>
+        Mirroring the text using CSS
+    </h3>
+    <p>
+        In this example we have used <strong>rotateX
+        </strong> function to mirror the text  
+        using CSS.
+    </p>
+   <h1>
+      <span>Tutorialspoint</span>
+   </h1>
+   <h1>
+      <span class="mirror">Tutorialspoint</span>
+   </h1>
 </body>
 </html>
