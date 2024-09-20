@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>
@@ -19,7 +19,7 @@
 </head>
 <body>
     <h1> Courtney </h1>
-    <ul>
+    <ul class="container">
         <li class="backwards">G</li>
         <li class="backwards">e</li>
         <li class="backwards">e</li>
@@ -33,5 +33,41 @@ you're doing it <br>
 be happy
 
     </p>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title as you want</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+ 
+        .backwards {
+            display: inline;
+            font-size: 100px;
+            font-style: bold;
+            -moz-transform: scale(-1, -1);
+            -webkit-transform: scale(-1, -1);
+            -o-transform: scale(-1, -1);
+            -ms-transform: scale(-1, -1);
+            transform: scale(-1, -1);
+        }
+    </style>
+</head>
+ 
+<body>
+    <ul class="container">
+        <li class="backwards">G</li>
+        <li class="backwards">e</li>
+        <li class="backwards">e</li>
+        <li class="backwards">k</li>
+        <li class="backwards">S</li>
+    </ul>
 </body>
 </html>
