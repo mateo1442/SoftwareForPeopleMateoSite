@@ -5,29 +5,27 @@
         Horizontal Text Flip using CSS
     </title>
     <style>
-    span {
-    padding: 30px;
-    font-size: 18px;
-}
-div {
-    display: flex;
-    justify-content: center;
-    height: 50vh;
-    align-items: center;
-}
-.flipHorizontal {
-    display: inline-block;
-    transform: scaleY(-1);
-    color: #04af2f;
-}
+    .backwards {
+            display: inline;
+            font-size: 100px;
+            font-style: bold;
+            -moz-transform: scale(-1, -1);
+            -webkit-transform: scale(-1, -1);
+            -o-transform: scale(-1, -1);
+            -ms-transform: scale(-1, -1);
+            transform: scale(-1, -1);
+        }
     </style>
 </head>
 <body>
     <h1> Courtney </h1>
-    <p> <span class="flipHorizontal">
-        (22) <br>
-        yentruoC 32/61/6
-    </span>
+    <ul class="container">
+        <li class="backwards">G</li>
+        <li class="backwards">e</li>
+        <li class="backwards">e</li>
+        <li class="backwards">k</li>
+        <li class="backwards">S</li>
+    </ul>
 <br>
 Hell <br>
 Yeah <br>
