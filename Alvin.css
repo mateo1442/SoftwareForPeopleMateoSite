@@ -14,12 +14,43 @@ ul li a {
 text-decoration: none;
 }
 
+.container {
+    display: flex;
+}
+
+
 .navbar {
     display: flex;
     flex-direction: column;
     background-color: #333;
     height: 100vh;
     width: 200px;
+}
+
+.content-box{
+    flex-grow: 1; 
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d2/Sterling_Memorial_Library_card_catalog.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px; 
+    height: 100vh; 
+    position: relative;
+}
+
+.overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 800;
+    background-color: rgba(128, 128, 128, 0.7); 
+    z-index: 1; 
+}
+
+.content {
+    position: relative; 
+    z-index: 2;
+    color: black; 
 }
 
 .navbar a {
